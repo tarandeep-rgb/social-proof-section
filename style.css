@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+
+*{
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: hsl(0, 0%, 100%); 
+    overflow: hidden;
+    
+}  
+.box{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 188px;
+    margin-right: 188px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 40vh;
+    align-items:center ;
+    margin-top: 50px;
+}
+.info h1{
+    font-weight: bold;
+    font-size: 30px;
+    color: hsl(300, 43%, 22%);
+}
+.info p{
+    font-size: 11px;
+    color: grey;
+}    
+.reviews{
+    background-color: hsl(300, 24%, 96%);
+    margin-bottom: 15px;
+    margin-left: 55px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+   
+}
+.report{
+    background-color: hsl(300, 24%, 96%); 
+    margin-bottom: 15px;
+    margin-left: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 40px;
+    
+}
+.best-tech{
+    background-color: hsl(300, 24%, 96%);
+    margin-top: 15px;
+    margin-left: 211px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.stars{
+    margin-top:10px ;
+}
+.buyers{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.buyer, .buyer-1, .buyer-2{
+    background-color: hsl(300, 43%, 22%);
+    margin-right: 15px;
+    margin-left: 30px;
+    border-radius: 10px;
+    padding: 40px;
+    color: hsl(300, 24%, 96%);
+}
+.buyer-info{
+    display: flex;
+    align-items: center;
+}
+.buyer-info img{
+    border-radius: 50%;
+}
+.buyer-info h3{
+    margin-left: 10px;
+}
+.buyer-info span{
+    margin-left: 10px;
+    color: hsl(333, 80%, 67%);
+}
+.buyer-2{
+    margin-top: 30px;
+}
+.buyer-1{
+    margin-top: 60px;
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+      background-color: lightblue;
+      min-width: 375px;
+      height: 100vh;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+    
+    .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .info{
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .reviews{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .report{
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .best-tech{
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .buyers{
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+}
+}
